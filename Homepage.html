@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome, Hacker</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: black url("https://i.ibb.co/kKWXWqz/anonymous-hacker.jpg") no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Courier New', monospace;
+      color: #00ffcc;
+      text-shadow: 0 0 10px #00ffcc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc;
+      }
+      to {
+        text-shadow: 0 0 20px #00ffee, 0 0 30px #00ffee, 0 0 40px #00ffee;
+      }
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9rem;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <h1>👤 Welcome, Hacker</h1>
+  <div class="footer">Crafted by Advaith 🔥</div>
+</body>
+</html>
